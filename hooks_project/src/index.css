@@ -8,3 +8,66 @@
   height: 100vh;
   background-color: skyblue;
 }
+
+nav {
+  height: 80px;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+nav > a{
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.stuForm{
+  min-height: calc(100vh - 80px);
+  background: linear-gradient(to right top,white ,skyblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stuForm > form{
+  width: 300px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 4px 5px black;
+}
+
+
+form > label{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+form > input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+form > button{
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: green;
+  color:white;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px;
+}
